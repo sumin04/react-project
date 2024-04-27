@@ -1,0 +1,153 @@
+*{
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+.headerBox{
+    background-color: #f6f7fb;
+    /* border-bottom: 1px solid lightgray; */
+}
+.menuBox{
+    width: 75rem;
+    padding: 0 170px 0 80px;
+    margin: 0 auto;
+    /* border-bottom: 1px solid lightgray; */
+}
+/* 첫번째 줄 */
+.flexBox{
+    display: flex;
+    justify-content: space-between;
+}
+.aBox{
+    display: flex;
+    margin: 12px 0;
+}
+.aBox > a{
+    font-size: 12px;
+    color: #5a6375;
+}
+.corporate{
+    margin-right: 15px;
+}
+.line::after{
+    content: '|';
+    text-align: center;
+    padding: 0 6px;
+    color: #eceef3;
+}
+.aBox > svg{
+    margin: -2px 6px 0 35px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* 두번째 줄 */
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu > div, span{
+    padding: 15px 0 25px 25px;
+    width: 230px;
+}
+.item{
+    text-align: left;
+    font-size: 19px;
+    cursor: pointer;
+    color: #222222;
+}
+.item:hover{
+    font-weight: bold;
+}
+.itemIconBox{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 7px;
+}
+.icon{
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+/* hover 내용 부분 */
+ul, li{
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    list-style: none;
+    font-size: 13px;
+    margin: 8px 0;
+}
+li::before{
+    content: '·';
+    margin: 0 5px;
+}
+.display{
+    width: 100%;
+    /* padding-right: 80px; */
+    padding: 24px 80px 30px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 5px 10px -4px lightgray;
+    position: absolute;
+    left: -35px;
+}
+.gnbItem{
+    width: 200px;
+    padding: 0 25px 0 14px;
+    text-align: left;
+}
+.textBox{
+    padding-bottom: 15px;
+}
+/* 마진이 안 머겅 */
+/* Tlqkf ╰（‵□′）╯*/
+.gnbItem > b, .textBox > b{
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.gnbItem > p, .textBox > p{
+    font-size: 13px;
+    margin: 10px 0;
+    text-align: left;
+    display: flex;
+}
+.gnbItem > p > img{
+    width: 20px;
+    height: 20px;
+    /* grey */
+    filter: invert(60%) sepia(13%) saturate(356%) hue-rotate(172deg) brightness(93%) contrast(91%);
+    /* 내가 조아하는 파랑 */
+    /* filter: invert(41%) sepia(93%) saturate(373%) hue-rotate(171deg) brightness(91%) contrast(95%);     */
+}
+
+/* 혜택/서비스 > 고객지원 박스 */
+.grayBox{
+    /* display: flex; */
+    /* width: 200px; */
+    /* height: 70px; */
+    /* background-color: #f6f7fb; */
+    background-color: rgb(191, 223, 243);
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+.btmItem{
+    display: flex;
+    justify-content: space-between;
+    margin: 13px 0;
+}
+.btmItem > b, .icon1 > p{
+    display: block;
+    font-size: 12px;
+}
+.icon1{
+    display: flex;
+}
+.ICON{
+    font-size: 17px;
+    padding-right: 5px;
+}

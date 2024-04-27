@@ -1,0 +1,12 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ic/visual/32/family">
+<g id="ico">
+<path id="Rectangle 8625" d="M8 16.22C8 16.0798 8.05882 15.9461 8.16214 15.8514L19.6621 5.30971C19.8533 5.13448 20.1467 5.13448 20.3379 5.30971L31.8379 15.8514C31.9412 15.9461 32 16.0798 32 16.22V34.5C32 34.7761 31.7761 35 31.5 35H8.5C8.22386 35 8 34.7761 8 34.5V16.22Z" fill="#38D36A"/>
+<path id="Polygon 13" d="M35 18L20 5L5 18" stroke="#5076FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Rectangle 8627" d="M15 19C15 18.4477 15.4477 18 16 18H24C24.5523 18 25 18.4477 25 19V29C25 29.5523 24.5523 30 24 30H16C15.4477 30 15 29.5523 15 29V19Z" fill="white"/>
+<path id="Vector 841" d="M20 18V30" stroke="#38D36A" stroke-width="1.6"/>
+<path id="Vector 842" d="M15 24H25" stroke="#38D36A" stroke-width="1.6"/>
+<path id="Rectangle 8626" d="M6 34.5C6 34.2239 6.22386 34 6.5 34H33.5C33.7761 34 34 34.2239 34 34.5V36.5C34 36.7761 33.7761 37 33.5 37H6.5C6.22386 37 6 36.7761 6 36.5V34.5Z" fill="#69F8AF"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,38 @@
+.listBox{
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-around;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list > a{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.link{
+    width: 96px;
+    height: 96px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    background-color: rgb(251, 251, 251);
+    border: 1px solid rgb(198, 223, 255);
+    box-sizing: border-box;
+}
+.event{
+    width: 50px;
+    font-size: 13px;
+    background-color: white;
+    color: blue;
+    text-align: center;
+    padding: 2px 0;
+    box-shadow: 1px 2px 4px 1px rgb(187, 187, 187);
+    border-radius: 10px;
+    position: absolute;
+    top: 305px;
+    right: 22.5%;
+    /* bottom: 2%; */
+}

@@ -1,0 +1,92 @@
+.productCar{
+    /* height: 390px; */
+    margin-right: 13px;
+}
+/* title box */
+.mainTitle{
+    padding: 90px 0 12px 0;
+}
+.tit{
+    font-size: 22px;
+}
+
+/* main */
+.main{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    column-gap: 12px;
+}
+/* main > box */
+.mainProductBox{
+    height: 250px;
+    background-color: white;
+    border-radius: 7px;
+    border: 1px solid gray;
+    padding: 32px 24px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.mainProductBox:first-child{
+    color: white;
+    background-color: rgb(13, 41, 82);
+    display: flex;
+}
+.mainProductBox > a{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* first inner */
+.innerFirst{
+    padding: 15px 0 0 10px;
+}
+.inner:first-child > strong:first-child{
+    font-size: 26px;
+}
+.innerFirst > p, .tBox > p{
+    margin: 12px 0 29px 0;
+    font-size: 13px;
+}
+
+/* inner */
+.tBox > div{
+    display: flex;
+    justify-content: space-between;
+}
+.titBox > strong{
+    font-size: 19px;
+}
+
+/* button */
+.inner > button{
+    width: 100px;
+    height: 41px;
+    border-radius: 5px;
+}
+.btnFill{
+    background-color: white;
+    color: rgb(13, 41, 82);
+    border: none;
+}
+.btnLine{
+    background-color: rgb(13, 41, 82);
+    border: 1px solid white;
+    color: white;
+    margin-left: 8px;
+}
+
+/* img box */
+.imgBox > img{
+    width: 220px;
+    height: 220px;
+    position: relative;
+    bottom: 60px;
+}
+
+.iconBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

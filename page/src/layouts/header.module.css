@@ -1,0 +1,258 @@
+/* *{
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+} */
+.headerBox{
+    width: 100%;
+    background-color: #f6f7fb;
+    
+    border-bottom: 1px solid #d0e0f2;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.menuBox{
+    width: 75rem;
+    height: 122px;
+    padding: 0 170px 0 80px;
+    margin: 0 auto;
+}
+/* 첫번째 줄 */
+.flexBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aBox{
+    display: flex;
+    margin: 12px 0;
+    align-items: center;
+}
+.aBox > a{
+    font-size: 12px;
+    color: #5a6375;
+}
+.corporate{
+    margin-right: 15px;
+}
+.line::after{
+    content: '|';
+    text-align: center;
+    padding: 0 6px;
+    color: #eceef3;
+}
+.aBox > svg{
+    margin: -2px 6px 0 35px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* 두번째 줄 */
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu > div{
+    padding: 15px 0 25px 25px;
+    width: 230px;
+}
+.item{
+    text-align: left;
+    font-size: 19px;
+    cursor: pointer;
+    color: #222222;
+}
+.item:hover{
+    font-weight: bold;
+}
+.itemIconBox{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 7px;
+}
+.icon{
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+/* hover 내용 부분 */
+.liList > li{
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    list-style: none;
+    font-size: 13px;
+    padding: 4px 0;
+    /* color: #808080; */
+    color: rgb(98, 116, 160);
+}
+/* hover시 초록색 */
+.liList > li:hover{
+    background-color: rgb(13, 41, 82);
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    padding-left: 4px;
+}
+.gnbItem > p:hover{
+    background-color: #20bf61;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    padding-left: 4px;
+}
+.textBox > p:hover:not(.none){
+    background-color: #20bf61;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    padding-left: 4px;
+}
+/* 모바일 mobile 부분 */
+.mobileHover:hover{
+    background-color: #20bf61;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    padding-left: 4px;
+    .mobile{display: block;}
+}
+.mobile{
+    width: 50px;
+    display: none;
+    background-color: #20bf61;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    padding-left: 4px;
+}
+
+.liList > li::before{
+    content: '·';
+    margin: 0 5px;
+}
+/* 아 다음부턴 제발 gird 사용하기....!!ㅠㅠ */
+.display{
+    width: 100%;
+    padding: 24px 35px 30px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 5px 20px -4px lightgray;
+    position: absolute;
+    left: -35px;
+    top: 122px;
+
+}
+.gnbItem{
+    width: 225px;
+    padding: 0 0 0 14px;
+    text-align: left;
+}
+.textBox{
+    padding-bottom: 15px;
+}
+.gnbItem > b, .textBox > b{
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.gnbItem > p, .textBox > p{
+    font-size: 13px;
+    padding: 5px 0;
+    text-align: left;
+    display: flex;
+}
+.mobileHover > p{
+    font-size: 13px;
+    padding: 5px 0;
+    text-align: left;
+}
+.gnbItem > p > img{
+    width: 20px;
+    height: 20px;
+    filter: invert(60%) sepia(13%) saturate(356%) hue-rotate(172deg) brightness(93%) contrast(91%);
+}
+
+/* 혜택/서비스 > 고객지원 박스 */
+.grayBox{
+    width: 210px;
+    background-color: #eef2f8;
+    border-radius: 5px;
+    padding: 7px 15px;
+    position: relative;
+    right: 10px;
+}
+.btmItem{
+    display: flex;
+    justify-content: space-between;
+    margin: 13px 0;
+}
+.btmItem > b, .icon1 > p{
+    display: block;
+    font-size: 12px;
+}
+.icon1{
+    display: flex;
+}
+.ICON{
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+/* 사고/보상 > 고객지원 박스 */
+.fnbItem{
+    position: relative;
+    right: 19px;
+}
+.grayBox2{
+    width: 195px;
+    background-color: #eef2f8;
+    border-radius: 5px;
+    padding: 12px 20px;
+}
+.btnList{
+    display: flex;
+    justify-content: space-between;
+}
+.btnList > b, p, .btnItemBox > p{
+    display: block;
+    font-size: 11px;
+}
+.btnItemBox{
+    display: flex;
+}
+.timeBox{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    color: gray;
+    margin-left: 23px;
+    font-weight: lighter;
+}
+.timeBox > p{
+    margin: 1px 0;
+}
+.btnItemBox > p{
+    margin: 10px 0;
+}
+.btnItemBox > svg{
+    width: 16px;
+    margin-right: 5px;
+}
+.iconTxB{
+    display: flex;
+    justify-content: space-between;
+}
+.iconTxB > p{
+    display: flex;
+    align-items: center;
+    margin: 15px 0 15px 14px;
+}
+.iconTxB > p > svg{
+    width: 19px;
+    margin-right: 7px;
+}

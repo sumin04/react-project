@@ -1,0 +1,49 @@
+.main{
+    background-color: #f6f7fb;
+    /* border-top: 1px solid #d0e0f2; */
+    padding-right: 80px;
+}
+.contentInner{
+    width: 75rem;
+    display: flex;
+    margin: 0 auto;
+}
+.mainNav{
+    width: 80px;
+    height: 100%;
+    position: sticky;
+    top: 105px;
+    z-index: 0;
+    padding: 40px 50px 20px 10px;
+    /* background-color: #d0e0f2; */
+    /* overflow: auto; */
+}
+.mainNav > p{
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+/* contents */
+.contents{
+    width: 100%;
+    padding: 60px 0 60px 35px;
+    border-left: 1px solid #d0e0f2;
+}
+.tit{
+    display: flex;
+    justify-content: space-between;
+}
+.tit > h1{
+    font-size: 31px;
+    color: #888888;
+}
+.tit > h1 > strong{
+    color: #222222;
+}
+
+
+
+
+.iconList{
+    display: flex;
+}
